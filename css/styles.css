@@ -1,0 +1,62 @@
+/* цвет основного текста #757575 */
+/* вторичный цвет текста #212121 */
+/* акцент #2196F3 */
+/* белый цвет #FFFFFF */
+/* цвет текста почты и телефона в подвале rgba(255, 255, 255, 0.6) */
+/* вторичный цвет фона #F5F4FA*/
+
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --white-text-color: #ffffff;
+  --contacts-text-color: rgba(255, 255, 255, 0.6);
+}
+
+.page {
+  background-color: #ffffff;
+  color: var(--primary-text-color);
+}
+
+.list {
+  list-style-type: none;
+}
+
+.logo-header {
+  color: var(--accent-color);
+}
+
+/* Site-nav */
+
+.site-nav .link {
+  color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+/*  Contacts */
+.contacts .link {
+  color: var(--primary-text-color);
+}
+
+.contacts .link:hover,
+.contacts .link:focus {
+  color: var(--accent-color);
+}
+
+/* Hero */
+.hero-title {
+  color: var(--white-text-color);
+}
+
+/* Section */
+.section-title {
+  color: var(--title-text-color);
+}
+
+/* Features */
+.features .title {
+  color: var(--title-text-color);
+}
