@@ -10,7 +10,7 @@
   --title-text-color: #212121;
   --accent-color: #2196f3;
   --white-text-color: #ffffff;
-  --contacts-text-color: rgba(255, 255, 255, 0.6);
+  --contacts-footer-text-color: rgba(255, 255, 255, 0.6);
 }
 
 .page {
@@ -20,6 +20,10 @@
 
 .list {
   list-style-type: none;
+}
+
+.link {
+  text-decoration: none;
 }
 
 .logo-header {
@@ -37,12 +41,12 @@
   color: var(--accent-color);
 }
 /*  Contacts */
-.contacts .link {
+.contacts-header .link {
   color: var(--primary-text-color);
 }
 
-.contacts .link:hover,
-.contacts .link:focus {
+.contacts-header .link:hover,
+.contacts-header .link:focus {
   color: var(--accent-color);
 }
 
@@ -59,4 +63,21 @@
 /* Features */
 .features .title {
   color: var(--title-text-color);
+}
+
+/* Areas of work */
+.areas .title {
+  color: var(--title-text-color);
+}
+
+.team .title {
+  color: var(--title-text-color);
+}
+
+.logo-footer {
+  color: var(--accent-color);
+}
+
+.contacts-footer {
+  color: var(--contacts-footer-text-color);
 }
